@@ -98,6 +98,7 @@
       width: 320px;
       height: 100vh;
       padding: 20px;
+      overflow-y: auto;
       box-sizing: border-box;
       position: fixed;
       border-right: 1px #ddd solid;
@@ -120,6 +121,7 @@
 
     main h1{
       padding-top: 4rem;
+      line-height: 120%;
     }
 
     main h1:hover{
@@ -180,6 +182,28 @@
     span.high {
       color: blue;
     }
+
+    .card {
+      background-color: #ddd;
+      border-radius: 4px;
+      padding: 16px 24px;
+      margin: 24px 0;
+
+    }
+
+    .card img {
+      float: right;
+      transform: translateY(12px);
+      margin-top: 4px;
+    }
+
+    .card::after, .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+
 
 
     @media only screen and (max-width: 900px) {
@@ -270,7 +294,7 @@
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#education">Education and awards</a>
-      <a href="#professional">Professional Experiences</a>      
+      <a href="#experiences">Professional Experiences</a>      
     </div>
   </aside>
 
@@ -282,6 +306,9 @@
     <code data-lang="javascript">
 <pre>{
   name: <span class="high">"Luca Fabbian"</span>,
+  <noscript>birthdate:  <span class="high">"1999"</span>,</noscript><script>
+  document.write(`age: <span class="high">"${new Date(new Date() - new Date("7 Oct 1999")).getFullYear() - 1970}"</span>,`)
+  </script>
   hobbies: [
     "my hobby",
     
@@ -289,13 +316,21 @@
 }</pre>
     </code>
 
-    <div class="card">
-      <div class="content">
-
-      </div>
-      <img>
-    </div>
-    
+    <p>
+      <img alt="Magebook web editor" src="opensource/magebook.png" style="width: 40%; float: left; margin-right: 10px;">
+      <a target="_blank" rel="noopener" href="https://librogamesland.gihub.io/magebook"><h3>Magebook editor</h3></a>
+      A web app to write and prototype interactive fiction and
+      gamebooks. Key features: collaborative editing based on Firebase, Word/Libreoffice
+      interopability, template to make Ionic apps. Employed by many italian publications
+    </p>
+    <p class="clearfix" style></p>
+    <p>
+      <img alt="Electon-iso-packager" src="opensource/electron-iso-packager.png" style="width: 40%; float: right; margin-left: 10px">
+      <a target="_blank" rel="noopener" href="https://github.com/lucafabbian/electron-iso-packager"><h3>electron-iso-packager</h3></a>
+      Node library to package electron projects into self-bootable
+      CD .iso files, based on Tiny Core Linux.
+    </p>
+    <div class="clearfix"></div>
     <h1 id="skills">Skills</h1>
     <p><b>Developing:</b> I deeply know the Typescript/Javascript ecosystem, including Node, Electron, Ionic and HTML/CSS (with Svelte, Vue e React frameworks). I also know Java, Kotlin, Python, Golang, Bash, C,
     C++, Nim and, with less degree, Matlab and Haskell . I am comfortable with Git, Docker, AWS, Kali Linux .</p>
@@ -308,6 +343,7 @@
       In 2021, I graduated in University of Padova with a score of <b>110/110 Cum Laude</b>.
     </p>
     <p>
+      <img src="logos/assertion-z1_AxSNtQJKTLgRF2ub72g.png" style="float:right; width: 100px">
       My degree, called "Ingegneria dell'Informazione", is a Bachelor Degree meant as a theorical basis for the Computer Engineering Master Degree, in which I am currently enrolled. 
     </p>
 
@@ -316,17 +352,32 @@
       Actually I started coding well before university. During high school, I was team leader and main developer of the ”Space Lions” team, which won the
       international <a target="_blank" rel="noopener" href="http://zerorobotics.mit.edu/">Zerorobotics</a> challenge launched by NASA, MIT and many others.
     </p>
-    <img style="width: 100%" src="https://zerorobotics.polito.it/app/uploads/2018/11/photo_2018-01-12_01-02-41-1.jpg" alt="">
+    <p>
+      <i style="float: right; width: 60%; text-align: right;">An embarassed 18-years-old myself still appears on the <a href="https://zerorobotics.polito.it/" target="_blank" rel="noopener">zr homepage</a> of University of Turin</i>
+    </p>
+    <img style="width: 100%" src="zerorobotics/zerorobotics.png" alt="photo of the Space Lions team">
 
 
-    <h1 id="professional">Professional Experiences</h1>
+    <h1 id="experiences">Professional Experiences</h1>
 
     <div class="card">
-      <div class="content">
-        <h3></h3>
+      <img src="experiences/witted.png">
+      <h3>Witted Srl - Backend & frontend developer, software architect</h3>
+      <p><i>Internship, from 20<sup>th</sup> July to 26<sup>th</sup> August 2020</i></p>
+      <p>I worked on Daphne (a project about monitoring forests with smart sensors), developing a backend
+        from scratch with AWS, Serverless and Node. I also developed a frontend, with Javascript+Svelte, to
+        view and label data.<br>
+        I worked again on the Zephyrus framework: a major rewrite with ZeroMQ instead of ROS improved
+        build time of 10’000% and delay of 100’000%. It’s still adopted in over 10 company projects.</p>
+    </div>
 
-      </div>
-      <img>
+    <div class="card">
+      <img src="experiences/witted.png">
+      <h3>Witted Srl – Software architect</h3>
+      <p><i>Student internship, from 26<sup>th</sup> August to 8<sup>th</sup> September 2018 + remote work shortly afterwards</i></p>
+      <p>I designed and coded a framework called Zephyrus. Based on ROS and Docker, Zephyrus automates
+        build, run e debug of distributed programs, as the ones used in company robots.
+        I was also involved in the making process of a Sealion ROUV (underwater drone) prototype.</p>
     </div>
 
     <p>And that's all!</p>
