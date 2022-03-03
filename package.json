@@ -1,0 +1,22 @@
+{
+  "name": "lucafabbian.github.io",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucafabbian/lucafabbian.github.io.git"
+  },
+  "author": "Luca Fabbian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucafabbian/lucafabbian.github.io/issues"
+  },
+  "homepage": "https://github.com/lucafabbian/lucafabbian.github.io#readme",
+  "dependencies": {
+    "html-minifier": "^4.0.0"
+  }
+}
