@@ -30,7 +30,7 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: #333;
       scroll-behavior: smooth;
-      background-color: #fefefe;
+      background-color: #f0f0f0;
     }
 
     .cover {
@@ -198,7 +198,7 @@
     }
 
     .card {
-      background-color: #ddd;
+      background-color: #d0d0d0;
       border-radius: 4px;
       padding: 16px 24px;
       margin: 24px 0;
@@ -408,15 +408,32 @@
         
     <h1 id="education"><a href="#education">Education and awards</a></h1>
     <p>
-      In 2021, I graduated in University of Padova with a score of <b>110/110 Cum Laude</b>.
+      In 2021, I graduated in University of Padova with a score of <b style="font-size: 115%">110/110 Cum Laude</b>.
     </p>
     <p>
       <img alt="University of Padova - Degree badge" src="logos/assertion-z1_AxSNtQJKTLgRF2ub72g.png" style="float:right; width: 100px">
       My degree, called "Ingegneria dell'Informazione", is a Bachelor Degree meant as a theorical basis for the Computer Engineering Master Degree, in which I am currently enrolled. 
     </p>
 
-
     <p>
+      In my Bachelor Thesys (<a target="_blank" rel="noopener" href="Luca_Fabbian_Tesi.pdf">PDF here <img class="emoji" alt="it" height="20" width="20" src="emoji/it.png"></a>), I started with an in-depth analysis on the current ways to run Linux binaries on Android and I developed my own solution to the problem. That solution allows to remap a virtual chroot enviroment, based on Alpine Linux, to web based interfaces built with Node, Svelte and libraries such as NoVNC.js; the overall idea is to use the Linux enviroment as a server, and stream its apps on a webview: in this way, Linux binaries, even GUI ones, may be restiled to provide a better mobile experience without patching the binary code itself. The resulted app was able to run a terminal, and even complex apps such as Chrome and Libreoffice. Moreover, it was extensible by third parts, provided full support to Pulseaudio and was really optimized in size (÷30mb for a full working Linux terminal). You may download the <a target="_blank" rel="noopener" href="https://unyw.github.io/android-apk/unyw.apk">Android apk here</a> or look at the source code on <a target="_blank" rel="noopener" href="https://github.com/unyw">github.com/unyw</a>, (keep in mind I still have to clean it).
+    </p>
+
+    <p><i>In the pictures below, the app diagram + some screenshots</i></p>
+
+    <picture>
+      <source srcset="thesys/appschema.webp" type="image/webp">
+      <img style="width: 100%" src="thesys/appschema.png" alt="app diagram">
+    </picture>
+
+
+    <picture>
+      <source srcset="thesys/screenshots.webp" type="image/webp">
+      <img style="width: 100%" src="thesys/screenshots.png" alt="app screenshots">
+    </picture>
+
+
+    <p style="margin-top: 100px;">
       Actually I started coding well before university. During high school, I was team leader and main developer of the ”Space Lions” team, which won the
       international <a target="_blank" rel="noopener" href="http://zerorobotics.mit.edu/">Zerorobotics</a> challenge launched by NASA, MIT and many others.
     </p>
