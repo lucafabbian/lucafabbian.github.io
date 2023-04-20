@@ -351,6 +351,20 @@
       opacity: 1;
     }
 
+
+    .fadeChild {
+      transition-delay: all 3s;
+      transition: opacity 1.3s ease-in-out, transform 0.8s ease-in-out;
+    }
+
+    .outview .fadeChild{
+      opacity: 0;
+    }
+
+    .inview .fadeChild{
+      opacity: 1;
+    }
+
     .zoom.outview {
       transform: scale(0.7);
     }
@@ -699,8 +713,9 @@
     </p>
 
     <p class="observed fade">
-      In my Bachelor Thesys (<a target="_blank" rel="noopener" href="documents/Luca-Fabbian-Tesi.pdf">PDF here <img
-          class="emoji" alt="it" height="20" width="20" src="assets/emoji/it.png"></a>), I started with an in-depth
+      In my Bachelor Thesis (<a target="_blank" rel="noopener" href="documents/Luca-Fabbian-Thesis.pdf">english PDF here <img
+          class="emoji" alt="en" height="20" width="20" src="assets/emoji/en.png"></a>, <a target="_blank" rel="noopener" href="documents/Luca-Fabbian-Tesi.pdf">italian PDF here <img
+            class="emoji" alt="it" height="20" width="20" src="assets/emoji/it.png"></a>), I started with an in-depth
       analysis on the current ways to run Linux binaries on Android and I developed my own solution to the problem. That
       solution allows to remap a virtual chroot enviroment, based on Alpine Linux, to web based interfaces built with
       Node, Svelte and libraries such as NoVNC.js; the overall idea is to use the Linux enviroment as a server, and
@@ -717,18 +732,17 @@
 
     <div class="observed fade fromRight">
       <picture>
-        <source srcset="assets/thesys/appschema.webp" type="image/webp">
-        <img style="width: 100%" src="assets/thesys/appschema.png" alt="app diagram">
+        <source srcset="assets/thesis/appschema.webp" type="image/webp">
+        <img style="width: 100%" src="assets/thesis/appschema.png" alt="app diagram">
       </picture>
     </div>
 
     <div class="observed fade fromLeft" style="padding-top: 3rem;">
       <picture>
-        <source srcset="assets/thesys/screenshots.webp" type="image/webp">
-        <img style="width: 100%" src="assets/thesys/screenshots.png" alt="app screenshots">
+        <source srcset="assets/thesis/screenshots.webp" type="image/webp">
+        <img style="width: 100%" src="assets/thesis/screenshots.png" alt="app screenshots">
       </picture>
     </div>
-
 
 
     <p style="margin-top: 100px;" class="observed fade">
@@ -736,6 +750,10 @@
       ”Space Lions” team, which won the
       international <a target="_blank" rel="noopener" href="http://zerorobotics.mit.edu/">Zerorobotics</a> challenge
       launched by NASA, MIT and many others.
+    </p>
+    <p class="observed fade">
+      We had to program a small spherical satellite to complete a series of tasks in a simulated environment against the SPHERE of our rivals.
+      In the final match, our codes were actually uploaded to real satellites in the space, and tested inside the International Space Station.
     </p>
     <p class="observed fade fromRight">
       <i style="float: right; width: 60%; text-align: right;">An embarassed 18-years-old myself still appears on the <a
@@ -749,10 +767,11 @@
       </picture>
     </div>
 
+    <div class="observed zr">
+      <p class="observed fade">And that's all!</p>
+    </div>
 
-
-    <p class="observed fade">And that's all!</p>
-    <p class="observed fade">Thanks for reading till the end. If you are interested, contact me at <a
+    <p class="observed fade" style="margin-bottom: 70px;">Thanks for reading till the end. If you are interested, contact me at <a
         href="mailto:luca.fabbian.1999@gmail.com" target="_blank" rel="noopener">luca.fabbian.1999@gmail.com</a>. I'm
       currently looking for a PhD <img class="emoji" alt="smile" height="20" width="20"
         src="assets/emoji/smile.png"> </p>
@@ -807,9 +826,7 @@
       observer.observe(el)
     })
   </script>
-  <script defer>
-
-  </script>
+  <script defer type="module" src="zr.js"></script>
 
 </body>
 
