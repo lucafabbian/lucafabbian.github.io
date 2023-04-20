@@ -60,7 +60,7 @@
 
     _Laurea Magistrale, da ottobre 2021 ad oggi (fine prevista: estate 2023)_
 
-    == Università di Padova - Ingegneria dell'Informazione, 110/110 Cum Laude
+    == Università di Padova - Ingegneria dell'Informazione, 110/110 e Lode
     _Laurea Triennale, da ottobre 2018 a settembre 2021_
   ]
 
