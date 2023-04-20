@@ -5,100 +5,97 @@
 #header[= Luca  Fabbian - Computer Engineer][
   #link("mailto:luca.fabbian.1999@gmail.com") | #link("tel:+39 340 6398141") | #link("", "Padova, Italy")
 
-  Software architecting / framework developing / web and Android apps
+  Architettura software / sviluppo framework / app web e Android
 ]
 
 
 
 
-#section[= Professional experiences]
+#section[= Esperienze Professionali]
 
 
 #card[
   #ctitle("res/gasparini.png")[
-    == Gasparini Srl - Backend & frontend developer, researcher
+    == Gasparini Srl - Backend & frontend developer, ricercatore
     _Internship, from November 2022 to April 2023_
   ]
 
-  Gasparini is a leader company of high-quality industrial machinery. Even though they are expert in the hardware area, they still rely on legacy software. That's why they asked me to investigate on a cloud migration scenario. In the end, I developed a prototype able to ingest industrial drawings and turn them into machine instructions.
+  Gasparini è leader nel settore macchinari industriali di qualità. Esperti nella costruzione di hardware, sono ancora legati a software ormai obsoleti. Mi hanno pertanto chiesto di esaminare la fattibilità di una migrazione su cloud. Ho realizzato per loro un prototipo in grado di importare e editare disegni industriali, per poi trasformarli in istruzioni macchina.
 
-  I used _Typescript+Svelte+Three.js+TailwindCSS_ for the frontend, and _Node+Postgres+Postgraphile_ for the backend. I worked with microservices, Docker, Azure and CI/CD pipelines based on Pulumi.
+  Ho usato _Typescript+Svelte+Three.js+TailwindCSS_ per il frontend, e _Node+Postgres+Postgraphile_ per il backend. Ho lavorato con microservices, Docker, Azure e pipeline CI/CD basate su Pulumi.
 
 
 ]
 
 #card[
   #ctitle("res/witted.png")[
-    == Witted Srl - Backend & frontend developer, software architect
-    _Internship, from 20th July to 26th August 2020_
+    == Witted Srl - Backend & frontend developer, architetto software
+    _Tirocinio, dal 20 luglio al 26 agosto 2020_
   ]
 
-  I worked on Daphne (a project about monitoring forests with smart sensors), developing a backend
-  from scratch with AWS, Serverless and Node. I also developed a frontend, with _JavaScript + Svelte_, to
-  view and label data.
+  Ho lavorato sul progetto Daphne (monitoraggio forestale tramite sensori intelligenti), creando da zero un backend prototipo con AWS, Serverless e Node. Ho poi sviluppato un'interfaccia frontend in Javascript+Svelte per consentire l'accesso ai dati dei sensori e il loro labelling.
+  
+  Ho proseguito il lavoro sul framework _Zephyrus_: riscrivendolo con _ZeroMQ_ anziché _ROS_, ho ridotto di oltre 100 volte il build time e di 1000 volte il delay. Tuttora è in uso in più di 10 progetti aziendali.
 
-  I worked again on the Zephyrus framework: a major rewrite with ZeroMQ instead of ROS improved
-  build time of 10000% and delay of 100000%. It's still adopted in over 10 company projects.
 ]
 
 #card[
   #ctitle("res/witted.png")[
-    == Witted Srl - Software architect
-    _High school internship, from 26th August to 8th September 2018 + remote work afterwards_
+    == Witted Srl - Architetto software
+    _Alternanza scuola lavoro, dal 26 agosto all'8 settembre 2018 + integrazioni successive da remoto_
   ]
 
-  I designed and coded a framework called Zephyrus. Based on ROS and Docker, Zephyrus automates build, run e debug of distributed programs, as the ones used in company robots. 
-
-  I was also involved in the making process of a Sealion ROUV (underwater drone) prototype.
+  Ho ideato e scritto il framework _Zephyrus_, basato su ROS e Docker, per automatizzare il processo di build, run e debug di programmi distribuiti. È stato pensato per i robot sviluppati dall'azienda.
+  
+  Ho partecipato alla realizzazione di un prototipo del drone sottomarino _Sealion_.
 ]
 
 #pagebreak()
 
-#section[= Education and Awards]
+#section[= Istruzione e Riconoscimenti]
 
 #card[
   #ctitle("res/padova.png")[
-    == University of Padova - Computer Engineering, still ongoing
+    == Università di Padova - Computer Engineering, in corso
 
-    _Master Degree, from October 2021 to date (expected end: summer 2023)_
+    _Laurea Magistrale, da ottobre 2021 ad oggi (fine prevista: estate 2023)_
 
-    == University of Padova - Information Engineering, 110/110 Cum Laude
-    _Bachelor Degree, from October 2018 to September 2021_
+    == Università di Padova - Ingegneria dell'Informazione, 110/110 Cum Laude
+    _Laurea Triennale, da ottobre 2018 a settembre 2021_
   ]
 
-  I chose the traditional University of Padova career: a bachelor degree with exams about computer science, maths, physics, electronics and telecommunications + a master degree focused on computer science only. 
+  Ho scelto il percorso classico offerto dall'Università di Padova: triennale con basi teoriche in informatica, matematica, fisica, elettronica e telecomunicazioni + magistrale incentrata sull'informatica. 
   
-  #underline("Bachelor Thesys"): I suggested and developed Unyw, an hybrid app for running desktop Linux binaries on Android, with a brand new system to remap native GUIs into web pages.
+  #underline[Tesi triennale]: ho proposto e realizzato Unyw, un'hybrid app per l'esecuzione di programmi desktop Linux su Android, attraverso un sistema innovativo che rimappa le interfacce native su pagine web.
 ]
 
 #card[
   #ctitle("res/nasa.png")[
-    == Zerorobotics challenge - First place worldwide
-
-    _International programming competition, 2017/2018 edition_
+    == Premio Zerorobotics - Primo posto mondiale
+    _Competizione internazionale di informatica, edizione 2017/2018_
   ]
-  During high school, I was team leader and main developer of the ”Space Lions” team, which won the international Zerorobotics challenge launched by NASA and MIT.
-
+  Al liceo, sono stato Team Leader e sviluppatore principale della squadra ”Space Lions”, che ha vinto la gara di programmazione Zerorobotics indetta da NASA e MIT.
 ]
 
-#section[= Skills]
+#section[= Skill e Competenze]
 
-*Developing*: I deeply know the Typescript/Javascript ecosystem, including Node, Electron, Ionic and HTML/CSS (with Svelte, Vue e React frameworks). I also know Java, Kotlin, Python, Golang, Bash, C, C++, Nim and, with less degree, Matlab and Haskell. I am comfortable with Git, Docker, AWS.
+*Programmazione*: sono specializzato in Typescript/Javascript e affini, inclusi Node, Electron, Ionic e HTML/CSS (con framework Svelte, Vue e React). Conosco Java, Kotlin, Python, Golang, Bash, C, C++ e Nim. Ho un'infarinatura base di Matlab e Haskell. So usare Git, Docker, PostgresSQL, AWS.
 
-*Languages*: Italian mothertongue. I am used to write and read in English for my everyday studies. TOEFL Certificate, with a score of 102/120 (more than a C1 level).
+*Lingue*: l'italiano è la mia lingua madre. Ho studiato per anni in inglese all'università, ho superato la certificazione TOEFL con voto 102/120 (oltre il livello C1).
 
-*Soft skills*: quick-learner, able to handle deadlines and last minute issues. I am used to work in groups. As a hobby, I enjoy learning about modern narratology tecniques.
+*Soft skills*: imparo in fretta, so gestire il tempo e stringere i denti di fronte agli imprevisti. Ho lavorato spesso in gruppo. Sono appassionato di narrativa, di cui conosco l'approccio moderno.
 
-#section[= About me]
 
-A sunny and joyful boy, who started programming at eleven years old and never stopped. I love reading, cooking, walking, watching Netflix while drinking a cup of chamomile (tea makes me sleepless). Open-source enthusiast; I wrote and still maintain projects as:
+#section[= Su di me]
+
+Sono un ragazzo solare ed energico, che ha iniziato a programmare a undici anni e non ha mai smesso. Adoro leggere, cucinare, camminare, guardare Netflix davanti a una tazza di camomilla (il tè non mi fa dormire). Contribuisco a iniziative open-source, ho ideato e sviluppato progetti tra cui:
 
 #gprojects[
-  *Magebook editor*: a web app to write interactive fiction and gamebooks. Key features: collaborative editing based on Firebase, Word/Libreoffice interopability, template to make Ionic apps. Employed by many italian publications
+  *Magebook editor*: web app per scrivere avventure testuali e libri gioco. Include collaborative editing basato su Firebase, esportazione Word e Libreoffice, template per realizzare app Ionic. È stato usato in numerose pubblicazioni.
 
-  *hdt-wasm*: WebAssembly port of the HDT library, used for graph databases.
+  *hdt-wasm*: port WebAssembly della libreria HDT, usata nei graph database.
 
-  *ipycpp*: Jupyter kernel to run C++ codes into notebooks. Similar to xeus-cling, but simpler, hackable and with less magic behind.
+  *ipycpp*: Jupyter kernel per usare il C++ nei notebooks. Simile a xeus-cling, ma più semplice, facile da modificare e con meno overhead.
 
-  *electron-iso-packager*: Node library to package electron projects into self-bootable CD .iso files, based on Tiny Core Linux. 
+  *electron-iso-packager*: libreria Node che permette di trasformare i progetti electron in CD .iso autoeseguibili basati su Tiny Core Linux. 
 ]
