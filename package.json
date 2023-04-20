@@ -1,24 +1,14 @@
 {
   "name": "lucafabbian.github.io",
-  "version": "1.0.0",
-  "description": "My personal portfolio",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "echo ciao ",
-    "build": "npx html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes  --use-short-doctype --minify-css true --minify-js true index-src.html  -o index.html",
-    "test": "echo \"I mean, why should I test \" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucafabbian/lucafabbian.github.io.git"
-  },
-  "author": "Luca Fabbian",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lucafabbian/lucafabbian.github.io/issues"
-  },
-  "homepage": "https://github.com/lucafabbian/lucafabbian.github.io#readme",
-  "dependencies": {
-    "html-minifier": "^4.0.0"
+  "devDependencies": {
+    "vite": "^4.2.0"
   }
 }
