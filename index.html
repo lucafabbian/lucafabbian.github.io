@@ -332,6 +332,7 @@
       float: right;
       transform: translateY(12px);
       margin-top: 4px;
+      margin-left: 10px;
     }
 
     .card::after,
@@ -520,7 +521,7 @@
       <a href="https://www.linkedin.com/in/lucafabbian/" target="_blank" rel="noopener">
         <img class="emoji" alt="linkedin" height="20" width="20" src="assets/emoji/linkedin.svg">lucafabbian</a><br>
 
-      <a href="documents/Luca-Fabbian-Curriculum.pdf" target="_blank" rel="noopener">
+      <a href="curriculum/Luca-Fabbian-Curriculum-ENG.pdf" target="_blank" rel="noopener">
         <img class="emoji" alt="arrow_down_small" height="20" width="20" src="assets/emoji/down.png">Curriculum Vitae
         (PDF)</a><br>
     </div>
@@ -554,46 +555,71 @@
   ]
 }</pre>
     </code>
-    <p class="observed fade">While I am pretty messy in everyday life, I always put my best effort into developing a
-      clean and automated code.
-      For example, look at this website: I have built it in pure html/css to achieve the best performance, furtherly
-      optimized by a CD/CI pipeline achieved through Github Actions. Well... almost pure html/css: I could not resist
-      the temptation to compute my age on the fly. But don't panic - if javascript is not avaiable, my birthdate is
-      printed instead <img class="emoji" alt="smile" height="20" width="20" src="assets/emoji/smile.png"> </p>
-    <p class="observed fade">In my free time, I enjoy contributing to open-source projects. Here two projects I have
+    <p class="observed fade">I may be messy in everyday life, but when it comes to coding, I'm a stickler for cleanliness and efficiency.
+      I love CD/CI pipelines and client side apps: I made this very website from scratch, using pure CSS tricks when possible (turn off JavaScript - the page will still work <img class="emoji" alt="smile" height="20" width="20" src="assets/emoji/smile.png">!)</p>
+    <p class="observed fade">In my free time, I enjoy contributing to open-source projects. Here some successfull projects I
       built from scratch: </p>
 
     <div class="observed fade fromRight">
-      <p>
+      <a target="_blank" rel="noopener" href="https://librogamesland.github.io/magebook">
         <picture>
           <img alt="Magebook web editor" src="assets/opensource/magebook.png"
             style="width: 40%; float: left; margin-right: 10px;">
         </picture>
-        <a target="_blank" rel="noopener" href="https://librogamesland.github.io/magebook">
-          <h3>Magebook editor</h3>
-        </a>
-        A web app to write and prototype interactive fiction and
-        gamebooks. Built with cutting-edge technologies, it pushes the javascript client to its limits, providing a
-        perfect offline experience. Key features: collaborative editing based on Firebase, Word/Libreoffice
-        interopability, template to make Ionic apps, downloadable version built with Golang + Lorca. Many italian
-        publications (and some abroad too) employed it with success.
-      </p>
+      </a>
+      <a target="_blank" rel="noopener" href="https://librogamesland.github.io/magebook">
+        <h3>Magebook editor</h3>
+      </a>
+      A web app to write and prototype interactive fiction and
+      gamebooks. Built with cutting-edge technologies, it pushes the javascript client to its limits, providing a
+      perfect offline experience.<br>
+      Key features include: collaborative editing based on Firebase, Word/Libreoffice
+      interopability, template to make Ionic apps, integration with VSCode. Many italian
+      publications (and some abroad too) employed it with success.
       <div class="clearfix"></div>
     </div>
 
+    <p style="margin-top: 3rem"></p>
     <div class="observed fade fromLeft">
-      <p>
-        <picture>
-          <source srcset="assets/opensource/electron-iso-packager.webp" type="image/webp">
-          <img alt="electon-iso-packager" src="assets/opensource/electron-iso-packager.png"
-            style="width: 40%; float: right; margin-left: 10px">
-        </picture>
-        <a target="_blank" rel="noopener" href="https://github.com/lucafabbian/electron-iso-packager">
-          <h3>electron-iso-packager</h3>
+       <a style="float: right; margin: 3rem 10px 3rem 0; text-decoration: none; color: white; background-color: #002e5b; padding: 0.5rem; border-radius: 0.5rem;"
+        target="_blank" rel="noopener" href="https://lucafabbian.github.io/hdt-wasm/demo-sparql/dist/">
+          Try it now!
         </a>
-        Node library to package electron projects into self-bootable
-        CD .iso files, based on Tiny Core Linux.
-      </p>
+      <a target="_blank" rel="noopener" href="https://github.com/lucafabbian/hdt-wasm">
+        <h3>hdt-wasm</h3>
+      </a>
+      Webassembly port of the HDT library, a high-performance library for storing graph data. 
+      <div class="clearfix"></div>
+    </div>
+
+    <p style="margin-top: 3rem"></p>
+    <div class="observed fade fromRight">
+      <picture>
+        <source srcset="assets/opensource/ipycpp.webp" type="image/webp">
+        <img alt="ipycpp" src="assets/opensource/ipycpp.png"
+          style="width: 25%; float: left; margin-right: 1rem;">
+      </picture>
+      <a target="_blank" rel="noopener" href="https://pypi.org/project/ipycpp">
+        <h3>ipycpp</h3>
+      </a>
+      A simple Jupyter kernel to run C++ inside notebooks.
+      While there are more advanced alternatives, this one it's more hackable and it's easier to install. With ipycpp
+      you always know what's going on under the hood - a huge deal for low level programming.
+      <div class="clearfix"></div>
+    </div>
+
+    <p style="margin-top: 3rem"></p>
+    <div class="observed fade fromLeft">
+      <picture>
+        <source srcset="assets/opensource/electron-iso-packager.webp" type="image/webp">
+        <img alt="electon-iso-packager" src="assets/opensource/electron-iso-packager.png"
+          style="width: 40%; float: right; margin-left: 10px">
+      </picture>
+      <a target="_blank" rel="noopener" href="https://github.com/lucafabbian/electron-iso-packager#readme">
+        <h3>electron-iso-packager</h3>
+      </a>
+      Node library to package electron projects into self-bootable
+      CD .iso files, based on Tiny Core Linux.
       <div class="clearfix"></div>
     </div>
 
@@ -604,11 +630,27 @@
     <div class="skill-logos observed zoom"></div>
     <p class="observed fade"><b>Languages:</b> Italian <img class="emoji" alt="it" height="20" width="20" src="assets/emoji/it.png">
       mothertongue. I am used to write and read in English <img class="emoji" alt="gb" height="20" width="20"
-        src="assets/emoji/en.png"> for my everyday studies.</p>
+        src="assets/emoji/en.png"> for my everyday studies.
+        <a href="documents/Luca-Fabbian-TOEFL.pdf" target="_blank" rel="noopener">TOEFL English Certification with a score of 102/120 (roughly a C1 level)</a></p>
     <p class="observed fade"><b>Soft skills:</b> quick-learner, able to handle deadlines and last minute issues. I am used to work in groups.
       As a hobby, I enjoy learning about modern narratology tecniques.</p>
 
     <h1 id="experiences"><a href="#experiences">Professional Experiences</a></h1>
+
+    <div class="card observed fade zoom">
+      <picture>
+        <source srcset="assets/experiences/gasparini.webp" type="image/webp">
+        <img alt="Gasparini logo" src="assets/experiences/gasparini.png">
+      </picture>
+      <h3>Gasparini Industries Srl - Backend & frontend developer, researcher</h3>
+      <p><i>Internship, from December 2022 to April 2023</i></p>
+      <p>Gasparini is a leader company of high-quality industrial machinery.
+        Even though they are expert in the hardware area, they still rely on legacy software. That's why they asked me to investigate on a cloud
+        migration scenario. In the end, I developed a prototype able to ingest industrial drawings and turn them into machine instructions.<br> 
+        I used Typescript + Svelte + Three.js + TailwindCSS for the frontend, and Node + Postgres + Postgraphile for the backend.
+        I worked with microservices, Docker, Azure and CI/CD pipelines based on Pulumi.
+      </p>
+    </div>
 
     <div class="card observed fade zoom">
       <picture>
@@ -635,6 +677,10 @@
       <p>I designed and coded a framework called Zephyrus. Based on ROS and Docker, Zephyrus automates
         build, run e debug of distributed programs, as the ones used in company robots.
         I was also involved in the making process of a Sealion ROUV (underwater drone) prototype.</p>
+    </div>
+    <div style="width: 100%; position: relative;">
+      <img src="assets/experiences/drone.png" class="observed fade fromRight"
+      style="width: 150px; position: absolute; right: -110px; top: -160px">
     </div>
 
 

@@ -15,17 +15,16 @@
 
 
 #card[
-  #ctitle("res/witted.png")[
+  #ctitle("res/gasparini.png")[
     == Gasparini Srl - Backend & frontend developer, researcher
     _Internship, from November 2022 to April 2023_
   ]
 
-  I worked on Daphne (a project about monitoring forests with smart sensors), developing a backend
-  from scratch with AWS, Serverless and Node. I also developed a frontend, with _JavaScript+Svelte_, to
-  view and label data.
+  Gasparini is a leader company of high-quality industrial machinery. Even though they are expert in the hardware area, they still rely on legacy software. That's why they asked me to investigate on a cloud migration scenario. In the end, I developed a prototype able to ingest industrial drawings and turn them into machine instructions.
 
-  I worked again on the Zephyrus framework: a major rewrite with ZeroMQ instead of ROS improved
-  build time of 10000% and delay of 100000%. It's still adopted in over 10 company projects.
+  I used _Typescript+Svelte+Three.js+TailwindCSS_ for the frontend, and _Node+Postgres+Postgraphile_ for the backend. I worked with microservices, Docker, Azure and CI/CD pipelines based on Pulumi.
+
+
 ]
 
 #card[
@@ -35,7 +34,7 @@
   ]
 
   I worked on Daphne (a project about monitoring forests with smart sensors), developing a backend
-  from scratch with AWS, Serverless and Node. I also developed a frontend, with _JavaScript+Svelte_, to
+  from scratch with AWS, Serverless and Node. I also developed a frontend, with _JavaScript + Svelte_, to
   view and label data.
 
   I worked again on the Zephyrus framework: a major rewrite with ZeroMQ instead of ROS improved
@@ -86,19 +85,20 @@
 
 *Developing*: I deeply know the Typescript/Javascript ecosystem, including Node, Electron, Ionic and HTML/CSS (with Svelte, Vue e React frameworks). I also know Java, Kotlin, Python, Golang, Bash, C, C++, Nim and, with less degree, Matlab and Haskell. I am comfortable with Git, Docker, AWS.
 
-*Languages*: Italian mothertongue. I am used to write and read in English for my everyday studies.
+*Languages*: Italian mothertongue. I am used to write and read in English for my everyday studies. TOEFL Certificate, with a score of 102/120 (more than a C1 level).
 
 *Soft skills*: quick-learner, able to handle deadlines and last minute issues. I am used to work in groups. As a hobby, I enjoy learning about modern narratology tecniques.
 
 #section[= About me]
 
-A sunny and joyful boy, who started programming at eleven years old and never stopped. I love reading, cooking, walking, watching Netflix while drinking a cup of chamomile (tea makes me sleepless).
-
+A sunny and joyful boy, who started programming at eleven years old and never stopped. I love reading, cooking, walking, watching Netflix while drinking a cup of chamomile (tea makes me sleepless). Open-source enthusiast; I wrote and still maintain projects as:
 
 #gprojects[
-  Open-source enthusiast; I wrote and still maintain projects as:
+  *Magebook editor*: a web app to write interactive fiction and gamebooks. Key features: collaborative editing based on Firebase, Word/Libreoffice interopability, template to make Ionic apps. Employed by many italian publications
 
-  *Magebook editor*: a web app to write and prototype interactive fiction and gamebooks. Key features: collaborative editing based on Firebase, Word/Libreoffice interopability, template to make Ionic apps. Employed by many italian publications
+  *hdt-wasm*: WebAssembly port of the HDT library, used for graph databases.
+
+  *ipycpp*: Jupyter kernel to run C++ codes into notebooks. Similar to xeus-cling, but simpler, hackable and with less magic behind.
 
   *electron-iso-packager*: Node library to package electron projects into self-bootable CD .iso files, based on Tiny Core Linux. 
 ]
