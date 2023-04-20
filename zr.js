@@ -19,7 +19,7 @@ const renderer = new THREE.WebGLRenderer({ alpha: true});
 renderer.setSize( window.innerWidth, window.innerHeight );
 renderer.domElement.style.position = "fixed";
 renderer.domElement.style.pointerEvents = "none";
-renderer.domElement.style.top = "0";
+renderer.domElement.style.bottom = "0";
 renderer.domElement.style.left = "0";
 renderer.domElement.classList.add("fadeChild");
 
@@ -90,4 +90,4 @@ window.addEventListener( 'resize', () => {
 
 
 
-console.log("hello world")
+console.log("3d object working!")
