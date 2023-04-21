@@ -389,7 +389,7 @@ span.comment {
 
 
 .fade.outview {
-  opacity: 0;
+  opacity: 0.1;
 }
 
 .fade.inview {
