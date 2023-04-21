@@ -358,7 +358,7 @@ span.comment {
   padding: 20px 0;
   width: 100%;
   border: 1px solid #ccc;
-  background-image: url("assets/logos/logos2.webp");
+  background-image: url("/assets/logos/logos2.webp");
   background-repeat: repeat-x;
   background-position-y: 20px;
   animation: 20s linear 0s infinite translateImg;
