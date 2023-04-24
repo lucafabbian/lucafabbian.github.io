@@ -37,7 +37,7 @@
     ]
   ],
   align(center)[
-    #image("../propic.jpg", width: 35mm)
+    #image("../propic-round.png", width: 35mm)
   ]
 )
 
