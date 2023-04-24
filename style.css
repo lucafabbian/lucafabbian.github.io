@@ -519,12 +519,12 @@ span.comment {
   .magequotes figure {
     margin-left: 0.5rem;
     padding: 0.5rem 1rem !important;
-    border-left: 6px solid #aaa !important;
+    border-left: 6px solid #bbb !important;
     border-radius: 5px;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
 
     gap: 0;
-    background-color: #ddd;
+    background-color: #e6e6e6;
     grid-template: "img name" "img title" "img quote" / auto 1fr;
 
   }
