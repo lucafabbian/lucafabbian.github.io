@@ -9,7 +9,8 @@
 
 
   #set text(
-    font: "Arial"
+    font: "Arial",
+    size: 9.5pt,
   )
 
   #set par(
@@ -33,11 +34,12 @@
     ]
 
     #block[
+      #set text(size: 10pt)
       #term
     ]
   ],
   align(center)[
-    #image("../propic-round.png", width: 35mm)
+    #image("propic-round.png", width: 35mm)
   ]
 )
 
@@ -53,7 +55,7 @@
   above: 35pt,
   below: 12pt,
 )[
-  #set text(size: 13pt)
+  #set text(size: 12pt)
   #term
 ]
 

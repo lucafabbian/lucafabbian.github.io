@@ -3,7 +3,7 @@
 #show: doc => conf(doc)
 
 #header[= Luca  Fabbian - Computer Engineer][
-  #link("mailto:luca.fabbian.1999@gmail.com") | #link("tel:+39 340 6398141") | #link("", "Padova, Italy")
+  #link("mailto:luca.fabbian.1999@gmail.com") | #link("tel:+39 340 6398141") | #link("https://www.openstreetmap.org/#map=12/46.0667/11.1333", "Trento, Italy")
 
   Software architecting / framework developing / web and Android apps
 ]
@@ -23,7 +23,6 @@
   Gasparini is a leader company of high-quality industrial machinery. Even though they are expert in the hardware area, they still rely on legacy software. That's why they asked me to investigate on a cloud migration scenario. In the end, I developed a prototype able to ingest industrial drawings and turn them into machine instructions.
 
   I used _Typescript+Svelte+Three.js+TailwindCSS_ for the frontend, and _Node+Postgres+Postgraphile_ for the backend. I worked with microservices, Docker, Azure and CI/CD pipelines based on Pulumi.
-
 
 ]
 
@@ -58,17 +57,20 @@
 
 #card[
   #ctitle("res/padova.png")[
-    == University of Padova - Computer Engineering, still ongoing
+    == University of Padova - Computer Engineering, 110/110 Cum Laude
 
-    _Master Degree, from October 2021 to date (expected end: summer 2023)_
+    _Master Degree, from October 2021 to October 2023_
+
 
     == University of Padova - Information Engineering, 110/110 Cum Laude
     _Bachelor Degree, from October 2018 to September 2021_
   ]
 
-  I chose the traditional University of Padova career: a bachelor degree with exams about computer science, maths, physics, electronics and telecommunications + a master degree focused on computer science only. 
+  I chose the traditional University of Padova career: a bachelor degree with exams related to computer science, maths, physics, electronics and telecommunications + a master degree focused on computer science only, with a special focus on WIDE (Web Information and Data Engineering). 
   
   #underline("Bachelor Thesys"): I suggested and developed Unyw, an hybrid app for running desktop Linux binaries on Android, with a brand new system to remap native GUIs into web pages.
+  
+  #underline("Master Thesys"): working with Gasparini Srl, a company about industrial machineries, I engineered a solution to reimplement legacy softwares into a cloud one.
 ]
 
 #card[
@@ -94,6 +96,8 @@
 A sunny and joyful boy, who started programming at eleven years old and never stopped. I love reading, cooking, walking, watching Netflix while drinking a cup of chamomile (tea makes me sleepless). Open-source enthusiast; I wrote and still maintain projects as:
 
 #gprojects[
+  *runcss*: on-the-fly javascript compiler for Tailwind. 
+  
   *Magebook editor*: a web app to write interactive fiction and gamebooks. Key features: collaborative editing based on Firebase, Word/Libreoffice interopability, template to make Ionic apps. Employed by many italian publications
 
   *hdt-wasm*: WebAssembly port of the HDT library, used for graph databases.

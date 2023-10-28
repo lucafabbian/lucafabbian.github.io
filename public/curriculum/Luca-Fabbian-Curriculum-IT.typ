@@ -3,7 +3,7 @@
 #show: doc => conf(doc)
 
 #header[= Luca  Fabbian - Computer Engineer][
-  #link("mailto:luca.fabbian.1999@gmail.com") | #link("tel:+39 340 6398141") | #link("", "Padova, Italy")
+  #link("mailto:luca.fabbian.1999@gmail.com") | #link("tel:+39 340 6398141") | #link("https://www.openstreetmap.org/#map=12/46.0667/11.1333", "Trento, Italy")
 
   Architettura software / sviluppo framework / app web e Android
 ]
@@ -17,7 +17,7 @@
 #card[
   #ctitle("res/gasparini.png")[
     == Gasparini Srl - Backend & frontend developer, ricercatore
-    _Internship, from November 2022 to April 2023_
+    _Internship, da novembre 2022 ad aprile 2023_
   ]
 
   Gasparini è leader nel settore macchinari industriali di qualità. Esperti nella costruzione di hardware, sono ancora legati a software ormai obsoleti. Mi hanno pertanto chiesto di esaminare la fattibilità di una migrazione su cloud. Ho realizzato per loro un prototipo in grado di importare e editare disegni industriali, per poi trasformarli in istruzioni macchina.
@@ -56,17 +56,19 @@
 
 #card[
   #ctitle("res/padova.png")[
-    == Università di Padova - Computer Engineering, in corso
+    == Università di Padova - Computer Engineering, 110/110 e Lode
 
-    _Laurea Magistrale, da ottobre 2021 ad oggi (fine prevista: estate 2023)_
+    _Laurea Magistrale, da ottobre 2021 a ottobre 2023_
 
     == Università di Padova - Ingegneria dell'Informazione, 110/110 e Lode
     _Laurea Triennale, da ottobre 2018 a settembre 2021_
   ]
 
-  Ho scelto il percorso classico offerto dall'Università di Padova: triennale con basi teoriche in informatica, matematica, fisica, elettronica e telecomunicazioni + magistrale incentrata sull'informatica. 
+  Ho scelto il percorso classico offerto dall'Università di Padova: triennale con basi teoriche in informatica, matematica, fisica, elettronica e telecomunicazioni + magistrale incentrata sull'informatica, con specializzazione in WIDE (Web Information and Data Engineering). 
   
   #underline[Tesi triennale]: ho proposto e realizzato Unyw, un'hybrid app per l'esecuzione di programmi desktop Linux su Android, attraverso un sistema innovativo che rimappa le interfacce native su pagine web.
+
+  #underline[Tesi magistrale]: ho lavorato con Gasparini Srl per reimplementare il software storico in una nuova versione cloud.
 ]
 
 #card[
@@ -91,6 +93,8 @@
 Sono un ragazzo solare ed energico, che ha iniziato a programmare a undici anni e non ha mai smesso. Adoro leggere, cucinare, camminare, guardare Netflix davanti a una tazza di camomilla (il tè non mi fa dormire). Contribuisco a iniziative open-source, ho ideato e sviluppato progetti tra cui:
 
 #gprojects[
+  *runcss*: compilatore client side per Tailwind.
+
   *Magebook editor*: web app per scrivere avventure testuali e libri gioco. Include collaborative editing basato su Firebase, esportazione Word e Libreoffice, template per realizzare app Ionic. È stato usato in numerose pubblicazioni.
 
   *hdt-wasm*: port WebAssembly della libreria HDT, usata nei graph database.
