@@ -142,7 +142,7 @@ h1:target~.cover,
 aside {
   width: 320px;
   height: 100vh;
-  padding: 40px;
+  padding: 18px 25px;
   overflow-y: auto;
   box-sizing: border-box;
   position: fixed;
@@ -211,7 +211,7 @@ main p {
   text-decoration: none;
   display: inline-block;
   color: #000;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   transition: all 0.3s;
 }
 
@@ -220,7 +220,7 @@ main p {
 }
 
 .propic img {
-  max-width: calc(100% - 100px); margin: 10px 50px; border-radius: 50%;
+  max-width: calc(100% - 60px); margin: 5px 30px; border-radius: 50%;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -485,7 +485,7 @@ span.comment {
   }
 
   aside .propic img {
-    width: 200px;
+    width: 250px;
   }
 
   aside div.links {
