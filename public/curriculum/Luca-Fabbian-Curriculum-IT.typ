@@ -3,7 +3,7 @@
 #show: doc => conf(doc)
 
 #header[= Luca  Fabbian - Computer Engineer][
-  #link("mailto:luca.fabbian.1999@gmail.com") | #link("tel:+39 340 6398141") | #link("https://www.openstreetmap.org/#map=12/46.0667/11.1333", "Trento, Italy")
+  #link("mailto:luca.fabbian.1999@gmail.com") | #link("tel:+39 340 6398141") | #link("https://www.openstreetmap.org/#map=12/45.6608/12.2288", "Treviso, Italia")
 
   Architettura software / sviluppo framework / app web e Android
 ]
@@ -13,6 +13,36 @@
 
 #section[= Esperienze Professionali]
 
+#card[
+  #ctitle("res/gasparini.png")[
+    == Gasparini Srl - Developer, ricercatore
+    _Lavoro a tempo pieno, da gennaio a luglio 2024_
+  ]
+
+  Ho lavorato nuovamente in questa azienda come ricercatore su diversi prototipi, tra cui un sistema di controllo vocale basato sull'IA, algoritmi per lo spazio 3D e un sistema di monitoraggio. Ho migliorato, riscritto e migrato il mio progetto di tesi dal cloud a una soluzione self-hosted utilizzando _Solid.js_ e _PocketBase_. Ho lavorato soprattutto in _Typescript_, _Python_ e _Go_.
+
+]
+
+#card[
+  #ctitle("res/bancaterrevenete.png")[
+    == Banca delle Terre Venete - Developer, ingegnere
+    _Progetto di due mesi, primavera 2024_
+  ]
+
+  Dopo una fusione aziendale, la banca si è trovata con software e procedure duplicate, causando inefficienza. Ho sviluppato uno strumento di automazione, bccauto, per sincronizzare i dati da varie fonti ed eseguire macro avanzate. Lavorando all'interno di rigorosi protocolli di sicurezza e di un sistema legacy, ho utilizzato _Go_ per la sua velocità di sviluppo e portabilità. L'interfaccia utente è stata realizzata con _Alpine.js_ per modifiche rapide e in tempo reale.
+  
+
+]
+
+#card[
+  #ctitle("res/playnook.png")[
+    == Playnook - Frontend developer
+    _Progetto di due mesi, estate 2024_
+  ]
+
+  Questo editore di audiolibri voleva usare l'IA generativa per traduzioni, revisioni ed editing. Ho sviluppato un plugin per _Magebook_, un editor open-source che ho creato nel 2019, popolare in Italia. Questo plugin si connette all'API di OpenAI GPT-4, effettua query intelligenti e si integra con l'editor.
+
+]
 
 #card[
   #ctitle("res/gasparini.png")[
@@ -20,9 +50,7 @@
     _Internship, da novembre 2022 ad aprile 2023_
   ]
 
-  Gasparini è leader nel settore macchinari industriali di qualità. Esperti nella costruzione di hardware, sono ancora legati a software ormai obsoleti. Mi hanno pertanto chiesto di esaminare la fattibilità di una migrazione su cloud. Ho realizzato per loro un prototipo in grado di importare e editare disegni industriali, per poi trasformarli in istruzioni macchina.
-
-  Ho usato _Typescript+Svelte+Three.js+TailwindCSS_ per il frontend, e _Node+Postgres+Postgraphile_ per il backend. Ho lavorato con microservices, Docker, Azure e pipeline CI/CD basate su Pulumi.
+  Gasparini è leader nell'hardware di macchinari industriali di qualità, ma è legata a software ormai obsoleti. Ho esaminare la fattibilità di una migrazione su cloud e realizzato un prototipo che importa ed edita disegni industriali, per poi produrre istruzioni macchina. Ho usato _Typescript+Svelte+Three.js+TailwindCSS_ per il frontend, e _Node+Postgres+Postgraphile_ per il backend. Ho lavorato con microservices, Docker, Azure e pipeline CI/CD basate su Pulumi.
 
 
 ]
@@ -30,23 +58,20 @@
 #card[
   #ctitle("res/witted.png")[
     == Witted Srl - Backend & frontend developer, architetto software
-    _Tirocinio, dal 20 luglio al 26 agosto 2020_
+    _Tirocinio di due settimane, estate 2020_
   ]
 
-  Ho lavorato sul progetto Daphne (monitoraggio forestale tramite sensori intelligenti), creando da zero un backend prototipo con AWS, Serverless e Node. Ho poi sviluppato un'interfaccia frontend in Javascript+Svelte per consentire l'accesso ai dati dei sensori e il loro labelling.
-  
-  Ho proseguito il lavoro sul framework _Zephyrus_: riscrivendolo con _ZeroMQ_ anziché _ROS_, ho ridotto di oltre 100 volte il build time e di 1000 volte il delay. Tuttora è in uso in più di 10 progetti aziendali.
+  Ho lavorato su Daphne (monitoraggio forestale tramite sensori intelligenti), creando da zero un backend con AWS, Serverless e Node. Ho sviluppato un'interfaccia in _Javascript+Svelte_ per accedere ai dati dei sensori e eseguire labelling. Ho migliorato il framework _Zephyrus_: riscrivendolo con _ZeroMQ_ anziché _ROS_, ho ridotto di oltre 100 volte il build time e di 1000 volte il delay.
 
 ]
 
 #card[
   #ctitle("res/witted.png")[
     == Witted Srl - Architetto software
-    _Alternanza scuola lavoro, dal 26 agosto all'8 settembre 2018 + integrazioni successive da remoto_
+    _Alternanza scuola lavoro di due settimane, estate 2018 + integrazioni successive da remoto_
   ]
 
-  Ho ideato e scritto il framework _Zephyrus_, basato su ROS e Docker, per automatizzare il processo di build, run e debug di programmi distribuiti. È stato pensato per i robot sviluppati dall'azienda.
-  
+  Ho usato il mio framework _Zephyrus_, basato su ROS e Docker, per automatizzare il processo di build, run e debug di programmi distribuiti nei robot prodotti dall'azienda.
   Ho partecipato alla realizzazione di un prototipo del drone sottomarino _Sealion_.
 ]
 

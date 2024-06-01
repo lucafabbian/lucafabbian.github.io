@@ -28,7 +28,7 @@
   columns: (1fr, auto),
   align(right)[
     #block[]
-    #block(above: 12pt, below: 24pt)[
+    #block(above: 12pt, below: 20pt)[
       #set text(size: 13pt)
       #caption
     ]
@@ -39,7 +39,7 @@
     ]
   ],
   align(center)[
-    #image("propic-round.png", width: 35mm)
+    #image("propic-round.png", width: 30mm)
   ]
 )
 
@@ -52,7 +52,7 @@
     right: 0pt,
     y: 6pt,
   ),
-  above: 35pt,
+  above: 30pt,
   below: 12pt,
 )[
   #set text(size: 12pt)
@@ -77,10 +77,10 @@
 ]
 
 #let ctitle(img, term) = grid(
-  column-gutter: 10pt,
+  column-gutter: 8pt,
   columns: (auto, 1fr),
   align(left + horizon)[
-    #image(img, width: 12mm)
+    #image(img, width: 8mm)
   ],
   align(left + horizon)[
     #term
