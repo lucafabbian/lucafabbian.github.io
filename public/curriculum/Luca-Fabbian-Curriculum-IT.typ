@@ -37,7 +37,7 @@
 #card[
   #ctitle("res/playnook.png")[
     == Playnook - Frontend developer
-    _Progetto di due mesi, estate 2024_
+    _Progetto di due mesi, autunno 2024_
   ]
 
   Questo editore di audiolibri voleva usare l'IA generativa per traduzioni, revisioni ed editing. Ho sviluppato un plugin per _Magebook_, un editor open-source che ho creato nel 2019, popolare in Italia. Questo plugin si connette all'API di OpenAI GPT-4, effettua query intelligenti e si integra con l'editor.
