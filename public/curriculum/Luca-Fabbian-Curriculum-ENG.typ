@@ -11,7 +11,7 @@
 
 
 
-#section[= Professional experiences]
+#section[= Work Experience]
 
 #card[
   #ctitle("res/gasparini.png")[
@@ -82,13 +82,13 @@
 
 #card[
   #ctitle("res/padova.png")[
-    == University of Padova - Computer Engineering, 110/110 Cum Laude
+    == Master Degree: Computer Engineering (110/110 Cum Laude)
 
-    _Master Degree, from October 2021 to October 2023_
+    _University of Padova, from October 2021 to October 2023_
 
 
-    == University of Padova - Information Engineering, 110/110 Cum Laude
-    _Bachelor Degree, from October 2018 to September 2021_
+    == Bachelor Degree: Information Engineering (110/110 Cum Laude)
+    _University of Padova, from October 2018 to September 2021_
   ]
 
   I chose the traditional University of Padova career: a bachelor degree with exams related to computer science, maths, physics, electronics and telecommunications + a master degree focused on computer science only, with a special focus on WIDE (Web Information and Data Engineering). 
